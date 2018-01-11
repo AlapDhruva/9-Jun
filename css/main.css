@@ -1,0 +1,102 @@
+body {
+  background-color: lightgray;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.container {
+  margin-top: 15px;
+}
+.abc {
+  text-align: center;
+}
+
+p {
+  margin: auto;
+}
+
+[type="button"] {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+}
+
+[type="button"]:hover {
+  background-color: darkgoldenrod;
+  color: white;
+  border: 1px solid darkgoldenrod;
+}
+
+h1:hover {
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+#image {
+  position: relative;
+}
+
+#iconn {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+
+#iconn1 {
+  position: absolute;
+  top: 12%;
+  right: 2%;
+}
+
+#iconn2 {
+  position: absolute;
+  top: 22%;
+  right: 2%;
+}
+
+#btn {
+  background-color: white;
+}
+#btn:hover {
+  background-color: darkgoldenrod;
+  border-color: darkgoldenrod;
+}
+#btn:hover i {
+  color: white;
+}
+
+i {
+  color: darkgoldenrod;
+}
+
+#imgg {
+  height: 400px;
+  background-color: black;
+  display: flex;
+}
+
+img {
+  margin: auto;
+  height: auto;
+}
+
+.col-md-4,
+.col-sm-6 {
+  margin-bottom: 15px;
+}
